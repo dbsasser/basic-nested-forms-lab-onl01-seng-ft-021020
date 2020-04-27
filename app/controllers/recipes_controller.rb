@@ -24,4 +24,5 @@ class RecipesController < ApplicationController
       :ingredient_2
       ]
     )
+  end
 end
