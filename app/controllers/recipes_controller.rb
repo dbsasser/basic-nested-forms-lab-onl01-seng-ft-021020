@@ -28,8 +28,8 @@ class RecipesController < ApplicationController
     params.require(:recipe).permit(
     :title,
     ingredient_attributes: [
-      :ingredient_1,
-      :ingredient_2
+      :name,
+      :ingredient,
       ]
     )
   end
